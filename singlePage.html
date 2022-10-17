@@ -1,0 +1,785 @@
+<!-- https://www.flipkart.com/ -->
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS only -->
+    <link rel="stylesheet" href="css/olwCarouselScss/owl.carousel.min.css" />
+    <link
+      rel="stylesheet"
+      href="css/olwCarouselScss/owl.theme.default.min.css"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/mediaStyle.css" />
+    <link rel="stylesheet" href="css/singlePage.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="responsive-child"></div>
+    <div class="responsive-navabar  bg-white position-fixed">
+      <ul class="">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">خانه</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">محصولات</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" id="show-car-logo-section" href="#">خودرو</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">تماس با ما</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">درباره ما</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">همکاری با ایران لنت</a>
+        </li>
+      </ul>
+    </div>
+    <div class="remove-discount-code"></div>
+
+    <nav>
+      <div
+        class="contact-us px-md-4 d-flex justify-content-between align-items-center"
+      >
+        <div class="phone-number d-md-flex justify-content-between w-100">
+          <ul class="d-flex">
+            <li>
+              <form class="search " id="search">
+                <input class="search-input" type="text" placeholder="جستجو" />
+                <button><i class="fas fa-search"></i></button>
+                <div class="search-suggestion text-white p-1">
+                  <div class="search-suggestion-item pe-4 mt-1">
+                    <p>لنت جلو پراید</p>
+                  </div>
+                  <div class="search-suggestion-item pe-4 mt-1">
+                    <p>کمک فنر</p>
+                  </div>
+                  <div class="search-suggestion-item pe-4 mt-1">
+                    <p>جلوبندی</p>
+                  </div>
+                  <div class="search-suggestion-item pe-4 mt-1">
+                    <p>چرخ عقب پراید</p>
+                  </div>
+                  <div class="search-suggestion-item pe-4 mt-1">
+                    <p>سر سیلندر پراید</p>
+                  </div>
+                </div>
+              </form>
+            </li>
+          </ul>
+          <div class="top-header-text text-white d-none d-md-block">
+            بهترین هارا از ما بخواهید
+          </div>
+          <p class="text-muted call-us d-none d-lg-block">
+            تلفن تماس<span
+              ><a class="text-muted mx-1" href="tel:۰۹۱۱۱۲۳۳۲۲۲"
+                >۰۹۱۱۱۲۳۳۲۲۲</a
+              ></span
+            >
+          </p>
+        </div>
+        <div class="cart-icon d-block d-lg-none">
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <div class="cart-number">3</div>
+          </a>
+        </div>
+      </div>
+      <div class="top-navbar position-relative">
+        <!-- <div class="car-dropdown"></div> -->
+
+        <nav class="navbar">
+          <div class="container-fluid">
+            <a class="navbar-brand navbar-header" href="#">
+              <div class="navbar-logo">
+                <img src="images/Afortis-la.png" alt="" /></div
+            ></a>
+
+            <div class="d-none d-lg-block">
+              <ul class=" me-auto mb-2 mb-lg-0 d-flex">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#">خانه</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">محصولات</a>
+                  <div class="category-dropdown">
+                    <ul class="dropdown-menu-ul">
+                      <li>
+                        <a href="#">لنت</a>
+                      </li>
+                      <li>
+                        <a href="#">کمک فنر</a>
+                      </li>
+                      <li>
+                        <a href="#">خودرو</a>
+                      </li>
+                      <li><a href="#">دیسک و صفحه</a></li>
+                      <li><a href="#">روغن موتور</a></li>
+                    </ul>
+                  </div>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" id="show-car-logo-section" href="#"
+                    >خودرو</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">تماس با ما</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">درباره ما</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">همکاری با ایران لنت</a>
+                </li>
+              </ul>
+            </div>
+            <div class="cart-icon d-none d-lg-block">
+              <a href="#">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="cart-number">3</div>
+              </a>
+            </div>
+            <div id="navbar-togg-buttom" class=" d-lg-none">
+              <div class="line-one "></div>
+              <div class="line-two "></div>
+              <div class="line-three "></div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!-- end of navbar -->
+      <!-- START SLIDER -->
+    </nav>
+
+    <!-- start car logo section -->
+
+    <div id="car-logo" class="car-logo overflow-hidden mt-3">
+      <div class="container">
+        <h3>خودرو مورد نظر را انتخاب کنید</h3>
+        <div class="row">
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/saipa.jpeg" alt="" />
+                <p>پراید</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/brilliance.jpeg" alt="" />
+                <p>بلریانس</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/changan.jpeg" alt="" />
+                <p>چانگان</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/chery.jpeg" alt="" />
+                <p>چری</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/citrien.jpeg" alt="" />
+                <p>سیتروئن</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/dongfeng.jpeg" alt="" />
+                <p>دانگ فنگ</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/faw.jpeg" alt="" />
+                <p>فاو</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/geely.jpeg" alt="" />
+                <p>جیلی</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/greatwall.jpeg" alt="" />
+                <p>گریت وال</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/hiaonday.jpeg" alt="" />
+                <p>هیوندای</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/jac.jpeg" alt="" />
+                <p>جک</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/lexus.jpeg"" />
+                <p>لکسوس</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/lifan.jpeg" alt="" />
+                <p>لیفان</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/mazda.jpeg" alt="" />
+                <p>مزدا</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/mg.jpeg" alt="" />
+                <p>ام جی</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/nissan.jpeg" alt="" />
+                <p>نیسان</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/mvm.jpeg" alt="" />
+                <p>ام وی ان</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/pejo.jpeg" alt="" />
+                <p>پژو</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/reno.jpeg" alt="" />
+                <p>رنو</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/sangyounf.jpeg" alt="" />
+                <p>سانگ یانگ</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/suzoki.jpeg" alt="" />
+                <p>سوزوکی</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-sm-4 col-xs-4 col-6">
+            <div class="car-logo-inner">
+              <a href="#">
+                <img src="images/toyota.jpeg" alt="" />
+                <p>تویوتا</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- main section start -->
+    <!-- discount code start -->
+    <div class="enter-discount-code">
+      <span class="remove-discount-icon"><i class="fa-solid fa-x"></i></span>
+      <div>
+        <label for="enter-discount-code-input">وارد کردن کد تخفیف</label>
+      </div>
+      <form>
+        <input
+          type="text"
+          id="enter-discount-code-input"
+          placeholder="کد تخفیف را وارد کنید"
+        />
+        <button class="pushable">
+          <span class="front">
+            ثبت
+          </span>
+        </button>
+      </form>
+    </div>
+    <!-- discount code end -->
+    <main>
+      <div class="container">
+        <div class="bread-crumb-container">
+          <ul class="bread-crumb-list d-flex">
+            <li class="bread-crumb-list-item"><a href="#">خانه</a></li>
+            <li class="bread-crumb-list-item"><a href="#">لنت ها</a></li>
+            <li class="bread-crumb-list-item"><a href="#">لنت ماشین</a></li>
+            <li class="bread-crumb-list-item">
+              <a href="#">لنت ماشین</a>
+            </li>
+            <li class="bread-crumb-list-item"><a href="#">لنت پراید</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="container">
+        <div class="product-container mt-3">
+          <div class="single-product-header-title">
+            <h1>لنت جلو پراید</h1>
+          </div>
+          <div class="single-product-item">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="single-product-item-img">
+                  <img src="images/pride.jpeg" alt="" />
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="single-product-item-desc">
+                  <div class="description-item">
+                    <div class="desc-item-header"><p>نام شرکت</p></div>
+                    <div class="desc-item-title"><p>افورتیس</p></div>
+                  </div>
+                  <div class="description-item">
+                    <div class="desc-item-header"><p>نام ماشین</p></div>
+                    <div class="desc-item-title"><p>پراید ۱۳۱</p></div>
+                  </div>
+                  <div class="description-item">
+                    <div class="desc-item-header"><p>نام قطعه</p></div>
+                    <div class="desc-item-title"><p>لنت جلو</p></div>
+                  </div>
+                  <div class="description-item">
+                    <div class="desc-item-header"><p>توضیحات</p></div>
+                    <div class="desc-item-title"><p>مخصوص پراید یورو۴</p></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="single-product-pay-section p-2">
+                  <div class="d-flex justify-content-around">
+                    <div class="single-product-price d-flex">
+                      <p class="ms-3">
+                        <i class="fa-solid fa-dollar-sign text-danger ms-1"></i
+                        >قیمت:
+                      </p>
+                      <p>۲۵۰,۰۰۰<span>تومان</span></p>
+                    </div>
+
+                    <div class="single-product-discount-price">
+                      <div class="d-flex">
+                        <p class="ms-4">تخفیف:</p>
+                        <p class="text-white bg-danger rounded-pill px-1">
+                          ۱۰<span class="">درصد</span>
+                        </p>
+                      </div>
+                      <p id="discount-code">وارد کردن کد تخفیف</p>
+                    </div>
+                  </div>
+
+                  <section
+                    class="cart-product-number d-flex align-items-center justify-content-between mt-2 "
+                  >
+                    <div>
+                      <span class="ms-2">تعداد:</span>
+                      <button class="cart-number-down" type="button">-</button>
+                      <input
+                        class=""
+                        type="number"
+                        min="1"
+                        max="5"
+                        step="1"
+                        value="1"
+                        readonly="readonly"
+                      />
+                      <button class="cart-number-up" type="button">+</button>
+                    </div>
+                    <p class="text-danger">
+                      <i class="fa-solid fa-warehouse ms-2 "></i>تنها ۱ عدد
+                      موجود است
+                    </p>
+                  </section>
+                  <p class="">
+                    <i class="fa-solid fa-truck-fast ms-2"></i>ارسال ۴روز کاری
+                  </p>
+                  <div class="single-product-final-price d-flex">
+                    <p class="ms-4">قیمت نهایی:</p>
+                    <p>۴۵۰,۰۰۰<span>تومان</span></p>
+                  </div>
+                  <button class="single-product-button">
+                    اضافه کردن به سبد خرید
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="related-product-section">
+          <div class="product-header">
+            <h4>کالا های مرتبط</h4>
+          </div>
+          <div class="item-slider-section ltr mt-md-5 mt-1 p-">
+            <div class="owl-carousel items-owl owl-theme content ">
+              <div class="item">
+                <a href="#">
+                  <div class="card-main-item p-2 position-relative">
+                    <div class="card-top-header ">
+                      <h5>لنت پراید ۱۳۱</h5>
+                    </div>
+                    <div class="card-images">
+                      <img src="images/brake-calipers-1.jpeg" alt="" />
+                    </div>
+                    <div class="card-desc">
+                      <h6>با این لنت ماشین شما ترمز میگیرد</h6>
+                    </div>
+
+                    <div class="card-price">
+                      <p>
+                        قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="#">
+                  <div class="card-main-item p-2 position-relative">
+                    <div class="card-top-header ">
+                      <h5>لوازم پژو</h5>
+                    </div>
+                    <div class="card-images">
+                      <img src="images/carPart.webp" alt="" />
+                    </div>
+                    <div class="card-desc">
+                      <h6>انواع لوازم پژو</h6>
+                    </div>
+
+                    <div class="card-price">
+                      <p>
+                        قیمت<span class="px-1 text-danger">۲۲۰,۰۰۰</span>تومان
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="#">
+                  <div class="card-main-item p-2 position-relative">
+                    <div class="card-top-header ">
+                      <h5>لنت جلو برلیانس h330</h5>
+                    </div>
+                    <div class="card-images">
+                      <img src="images/Brilliance_H330.Taha.7.13.jpg" alt="" />
+                    </div>
+                    <div class="card-desc">
+                      <h6>لنت درجه یک ساخت خارج</h6>
+                    </div>
+
+                    <div class="card-price">
+                      <p>
+                        قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="#">
+                  <div class="card-main-item p-2 position-relative">
+                    <div class="card-top-header ">
+                      <h5>لنت جلو برلیانس</h5>
+                    </div>
+                    <div class="card-images">
+                      <img src="images/lent2.webp" alt="" />
+                    </div>
+                    <div class="card-desc">
+                      <h6>لنت افورتیس برای برلیانس</h6>
+                    </div>
+
+                    <div class="card-price">
+                      <p>
+                        قیمت<span class="px-1 text-danger">۳۴۰,۰۰۰</span>تومان
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="item">
+                <a href="#">
+                  <div class="card-main-item p-2 position-relative">
+                    <div class="card-top-header ">
+                      <h5>لنت عقب زانتیا</h5>
+                    </div>
+                    <div class="card-images">
+                      <img src="images/زانتیا.jpeg" alt="" />
+                    </div>
+                    <div class="card-desc">
+                      <h6>با این لنت ماشین شما ترمز میگیرد</h6>
+                    </div>
+
+                    <div class="card-price d-none">
+                      <p>
+                        قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
+                      </p>
+                    </div>
+                    <div class="Available text-danger">
+                      در انبار موجود نمیباشد
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="position-relative" id="description-section-on-off">
+          <div class="description-section-on-off-icon">
+            <i class="fa-sharp fa-solid fa-chevron-down"></i>
+          </div>
+          <div class="product-description-header ">
+            <h4>مشخصات</h4>
+          </div>
+        </div>
+        <div class="product-description-section">
+          <div class="product-description-container">
+            <div class="product-description-item d-flex align-items-center">
+              <div class="product-description-item-header">
+                <h6>وزن</h6>
+              </div>
+              <div class="product-description-item-title">
+                ۳۰۰گرم
+              </div>
+            </div>
+            <div class="product-description-item d-flex align-items-center">
+              <div class="product-description-item-header">
+                <h6>شرکت</h6>
+              </div>
+              <div class="product-description-item-title">
+                آفورتیس
+              </div>
+            </div>
+            <div class="product-description-item d-flex align-items-center">
+              <div class="product-description-item-header">
+                <h6>کشور سازنه</h6>
+              </div>
+              <div class="product-description-item-title">
+                انگلیس
+              </div>
+            </div>
+            <div class="product-description-item d-flex align-items-center">
+              <div class="product-description-item-header">
+                <h6>سایر توضیحات</h6>
+              </div>
+              <div class="product-description-item-title">
+                تولید شده بر اساس بهترین استاندارد ها
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="question-section">
+          <div class="product-header">
+            <h4>دیدگاه ها</h4>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- main section end -->
+
+    <!-- start footer section -->
+    <footer class="">
+      <div class="container">
+        <div
+          class="footer-header d-none d-md-flex justify-content-around align-items-center"
+        >
+          <span
+            class="d-flex flex-column align-items-center justify-content-center"
+            ><img src="images/express-delivery.svg" alt="" />
+            <p>پست اکپرس</p>
+          </span>
+          <span
+            class="d-flex flex-column align-items-center justify-content-center"
+            ><img src="images/cash-on-delivery.svg" alt="" />
+            <p>پرداخت وجه درب منزل</p></span
+          >
+          <span
+            class="d-flex flex-column align-items-center justify-content-center"
+            ><img src="images/support.svg" alt="" />
+            <p>پشتیبانی تمام وقت</p></span
+          >
+          <span
+            class="d-flex flex-column align-items-center justify-content-center"
+            ><img src="images/days-return.svg" alt="" />
+            <p>ضمانت قیمت</p></span
+          >
+          <span
+            class="d-flex flex-column align-items-center justify-content-center"
+            ><img src="images/original-products.svg" alt="" />
+            <p>محصول اصلی</p></span
+          >
+        </div>
+        <div class="second-footer d-lg-flex d-block justify-content-around">
+          <div
+            class="footer-back-link d-flex justify-content-around w-md-50 w-100 pt-2"
+          >
+            <div class="footer-back-link-container">
+              <div class="footer-back-link-header">
+                <h5>کالاهای محبوب</h5>
+              </div>
+              <div class="footer-favorit-product">
+                <ul class="footer-list">
+                  <li class="footer-list-item"><a href="#">لنت پورشه</a></li>
+                  <li class="footer-list-item"><a href="#">لنت بوگاتی</a></li>
+                  <li class="footer-list-item"><a href="#">لنت بنز</a></li>
+                  <li class="footer-list-item"><a href="#">لنت پژو</a></li>
+                  <li class="footer-list-item"><a href="#">لنت سمند</a></li>
+                  <li class="footer-list-item"><a href="#">لنت پرشیا</a></li>
+                  <li class="footer-list-item"><a href="#"> لنت کوییک</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="footer-back-link-container">
+              <div class="footer-back-link-header">
+                <h5>کالاهای محبوب</h5>
+              </div>
+              <div class="footer-favorit-product">
+                <ul class="footer-list">
+                  <li class="footer-list-item"><a href="#">لنت پورشه</a></li>
+                  <li class="footer-list-item"><a href="#">لنت بوگاتی</a></li>
+                  <li class="footer-list-item"><a href="#">لنت بنز</a></li>
+                  <li class="footer-list-item"><a href="#">لنت پژو</a></li>
+                  <li class="footer-list-item"><a href="#">لنت سمند</a></li>
+                  <li class="footer-list-item"><a href="#">لنت پرشیا</a></li>
+                  <li class="footer-list-item"><a href="#"> لنت کوییک</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="left-footer w-md-50 ">
+            <div
+              class="e-namad-logo-section d-flex flex-md-row flex-column justify-content-around"
+            >
+              <div class="text-center">
+                <img src="images/enamad.png" alt="" />
+              </div>
+              <div class="text-center">
+                <img src="images/neshamSabt.png" alt="" />
+              </div>
+              <div class="text-center">
+                <img src="images/neshamSabt.png" alt="" />
+              </div>
+            </div>
+            <div
+              class="footer-address text-center bg-gradient rounded p-4 mt-4"
+            >
+              <div>
+                تلفن تماس:<span
+                  ><a class="text-muted mx-1" href="tel:۰۹۱۱۱۲۳۳۲۲۲"
+                    >۰۹۱۱۱۲۳۳۲۲۲</a
+                  ></span
+                >
+              </div>
+              <div>
+                ادرس:<span>تهران چهارراه اول کوچه دوم درب اول سمت چپ</span>
+              </div>
+              <div class="mt-1">email:<span>iranlent@gmail.com</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end footer section -->
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="js/responsiveNavbar.js"></script>
+    <script src="js/owlCarouseJs/owl.carousel.js"></script>
+
+    <script src="js/singlePage.js"></script>
+    <script src="js/owlCarousel.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

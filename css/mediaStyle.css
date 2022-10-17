@@ -1,0 +1,28 @@
+@media (max-width: 992px) {
+	.main {
+		width: 100% !important;
+		order: 1 !important;
+	}
+	.aside {
+		width: 100%;
+		order: 2 !important;
+	}
+	.search-car-input form {
+		width: 90%;
+	}
+	.product-header::after {
+		width: 100%;
+	}
+	.profile-sidebar {
+		width: 100% !important;
+	}
+}
+@media (max-width: 768px) {
+	.cart-img img {
+		height: 150px;
+	}
+	.cart-img {
+		width: 70% !important;
+		margin: 0 auto !important;
+	}
+}

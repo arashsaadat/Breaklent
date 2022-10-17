@@ -1,0 +1,20 @@
+.header-filter-product {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+.header-filter-product-item {
+	cursor: pointer;
+}
+.header-filter-product-item.active {
+	color: red;
+}
+.delete-filter {
+	position: absolute;
+    left: 0;
+    top: 0;
+}
+.responsive-header-filter-product{
+
+}

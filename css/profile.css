@@ -1,0 +1,186 @@
+.user-profile {
+	border-bottom: 1px solid #ccc;
+}
+.user-profile-navbar {
+	width: 350px;
+	display: flex;
+	align-items: center;
+}
+.user-profile-img {
+	border: 1px solid black;
+	overflow: hidden;
+	padding: 3px;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.user-profile-img img {
+	width: 50px;
+	height: 50px;
+}
+.user-profile-desc {
+	margin-right: 5px;
+}
+.user-profile-desc p {
+	font-size: 14px;
+}
+.edit-user-profile {
+	margin-right: auto;
+}
+.profile-sidebar {
+	padding: 10px;
+	box-shadow: 1px 0px 13px 1px rgba(0, 0, 0, 0.32);
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.profile-sidebar ul {
+	width: 90%;
+	margin: 0 auto;
+}
+.profile-sidebar ul li {
+	margin: 10px 5px;
+	position: relative;
+	padding-bottom: 5px;
+}
+.profile-sidebar ul li:after {
+	content: "";
+	position: absolute;
+	background-color: #ccc;
+	height: 2px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.profile-sidebar ul li:last-child::after {
+	display: none;
+}
+.profile-sidebar ul li a {
+	color: #464646;
+}
+.profile-sidebar ul li a i {
+	color: black;
+	font-weight: border;
+}
+
+.profile-main {
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.profile-main-header-title:before {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	height: 2px;
+	width: 70px;
+	background-color: #ff0000;
+}
+.field-title {
+	color: rgb(170, 168, 168);
+}
+
+.field-value {
+	font-size: 13px;
+}
+.edit-profile {
+	width: fit-content;
+	left: 10px;
+	top: 20px;
+	color: skyblue;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.edit-profile:hover {
+	color: black;
+}
+.profile-main form {
+	width: 100%;
+}
+.profile-main form input {
+	width: 100%;
+	padding: 3px 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	outline: none;
+}
+.submit-edit-form {
+	width: 80px;
+	padding: 5px;
+}
+.card-main-item {
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+#coworker-form input {
+	height: 35px;
+}
+
+.uploadOuter {
+	text-align: center;
+	padding: 20px;
+}
+.uploadOuter strong {
+	padding: 0 10px;
+}
+.dragBox {
+	position: relative;
+	width: 280px;
+	height: 160px;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	line-height: 95px;
+	color: #999;
+	border: 2px dashed #ccc;
+	display: inline-block;
+
+	transition: transform 0.3s;
+}
+.dragBox input[type="file"] {
+	position: absolute;
+	opacity: 0;
+	height: 156px !important;
+	top: 0;
+	left: 0;
+}
+.draging {
+	transform: scale(1.1);
+}
+#preview {
+	text-align: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	pointer-events: none;
+}
+#preview img {
+	max-width: 100%;
+	height: 100%;
+}

@@ -1,0 +1,119 @@
+.main-cart-section p,
+.main-cart-section span {
+	margin-bottom: 7px;
+}
+.content-wrapper {
+	box-shadow: 0rem 0rem 0.2rem 0.1rem rgba(0, 0, 0, 0.1);
+	padding: 8px 5px;
+}
+.cart-total-price {
+	font-size: 0.8rem;
+}
+
+.cart-item {
+	font-size: 0.8rem;
+	border-bottom: 1px solid #efefef;
+}
+.cart-item-price {
+	text-align: left;
+}
+
+.cart-item:last-of-type {
+	border-bottom: none;
+}
+
+.cart-img {
+	overflow: hidden;
+	width: 10rem;
+	height: 10rem;
+	margin: auto 2rem;
+}
+
+.cart-img img {
+	width: 100%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+
+.cart-product-selected-color {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	display: inline-block;
+	margin-bottom: -0.3rem;
+}
+
+.cart-product-selected-warranty {
+	font-size: 1rem;
+	display: inline-block;
+	margin-bottom: -0.3rem;
+}
+
+.cart-item-discount {
+	font-size: 0.7rem;
+}
+
+.cart-product-number {
+	border: 1px solid #dedede;
+	padding: 0.1rem;
+	border-radius: 0.25rem;
+}
+
+.cart-product-number input {
+	text-align: center;
+	border: none;
+	width: 2rem;
+	display: inline-block;
+	-moz-appearance: textfield;
+}
+
+.cart-product-number input:focus {
+	border: none;
+	outline: none;
+	width: 2rem;
+	display: inline-block;
+}
+
+.cart-product-number input::-webkit-inner-spin-button,
+.cart-product-number input::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.cart-number-down,
+.cart-number-up {
+	border: none;
+	width: 1.5rem;
+	text-align: center;
+	background-color: #c00;
+	color: #ffffff;
+	padding-top: 0.2rem;
+	font-size: 0.9rem;
+	font-weight: bold;
+	border-radius: 0.25rem;
+	transition: 0.4s;
+}
+
+.cart-number-down:hover,
+.cart-number-up:hover {
+	background-color: #ed3237;
+	transition: 0.4s;
+}
+
+.cart-number-down:focus,
+.cart-number-up:focus {
+	background-color: rgb(133, 3, 3);
+}
+
+.cart-delete {
+	color: #666666;
+	transition: 0.4s;
+}
+
+.cart-delete:hover {
+	color: #dc3545;
+	transition: 0.4s;
+}

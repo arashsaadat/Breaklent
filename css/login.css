@@ -1,0 +1,117 @@
+.login {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/carPart.webp);
+	background-position: center;
+	background-size: cover;
+}
+.login .login-form-container {
+	width: 290px;
+	height: 400px;
+	background-color: rgba(0, 0, 25, 0.5);
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.login form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.login form > div {
+	text-align: right;
+	width: 100%;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: #fff;
+}
+.login form input {
+	width: 100%;
+
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 4px 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.login form .login-btn {
+	background-color: #c00;
+	color: #fff;
+	border: 0;
+	outline: none;
+	margin-top: 30px;
+	padding: 5px 18px;
+	width: 100%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.login-logo {
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 5px;
+	border-bottom: 2px solid red;
+	margin-bottom: 20px;
+}
+.login-logo img {
+	max-width: 100%;
+}
+/* register section start */
+.register-sms {
+	height: 90vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/carPart.webp);
+	background-position: center;
+	background-size: cover;
+}
+
+.register-sms .register-sms-form-container {
+	width: 290px;
+	height: 150px;
+	background-color: rgba(0, 0, 25, 0.5);
+	padding: 10px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+
+.register-sms .register-sms-form-container form input {
+	width: 100%;
+	border: 1px solid #ccc;
+	outline: none;
+	padding: 4px 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.register-sms .register-sms-form-container form .register-btn {
+	background-color: rgb(29, 135, 19);
+	color: #fff;
+	border: 0;
+	outline: none;
+	margin-top: 30px;
+	padding: 5px 18px;
+	width: 100%;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+/* register section end */
