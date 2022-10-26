@@ -316,42 +316,137 @@
     </nav>
 
     <!-- main and sidebar section start -->
+    <!-- responsive filter section start -->
+    <div class="responsive-filter px-2">
+      <h5 class="my-1 ">فیلتر</h5>
+      <div class="all-category-filter">
+        <p class="all-category-filter-title">
+          تمام دسته بندی ها <i class="fa-sharp fa-solid fa-caret-down me-1"></i>
+        </p>
+        <div class="all-category-filter-list">
+          <ul>
+            <li><a href="#">خودرو</a></li>
+            <li><a href="#">لنت</a></li>
+            <li><a href="#">روغن موتور</a></li>
+            <li><a href="#">کمک فنر</a></li>
+            <li><a href="#">بدنه خودرو</a></li>
+            <li><a href="#">لاستیک</a></li>
+            <li><a href="#">رینگ</a></li>
+            <li><a href="#">لوازم مصرفی</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="all-category-filter">
+        <p class="all-category-filter-title">
+          برند ها<i class="fa-sharp fa-solid fa-caret-down me-1"></i>
+        </p>
+        <div class="all-category-filter-list">
+          <ul>
+            <li><a href="#">خودرو</a></li>
+            <li><a href="#">لنت</a></li>
+            <li><a href="#">روغن موتور</a></li>
+            <li><a href="#">کمک فنر</a></li>
+            <li><a href="#">بدنه خودرو</a></li>
+            <li><a href="#">لاستیک</a></li>
+            <li><a href="#">رینگ</a></li>
+            <li><a href="#">لوازم مصرفی</a></li>
+          </ul>
+        </div>
+      </div>
 
-    <div class="main-sidebar-container d-flex flex-lg-row flex-column mt-3 mb-0 mb-md-5">
+      <div class="all-category-filter">
+        <p class="all-category-filter-title">قیمت از:</p>
+        <input type="range" class="w-100" />
+        <div class="show-filter-price d-flex justify-content-between px-2">
+          <span>از:۰</span>
+          <span>تا:۱۰۰هزار</span>
+        </div>
+      </div>
+      <div class="all-category-filter">
+        <div class="d-flex justify-content-between mt-2">
+          <label for="">کالاهای تخفیف دار </label>
+          <input type="checkbox" />
+        </div>
+        <div class="d-flex justify-content-between mt-2">
+          <label for="">کالاهای موجود </label>
+          <input type="checkbox" />
+        </div>
+        <div class="d-flex justify-content-between mt-2">
+          <label for="">پیشنهاد ما</label>
+          <input type="checkbox" />
+        </div>
+      </div>
+    </div>
+    <!-- responsive filter section end -->
+
+    <div
+      class="main-sidebar-container d-flex flex-lg-row flex-column mt-3 mb-0 mb-md-5"
+    >
       <div class="container">
         <div class="row">
           <div class=" col-lg-3 px-1">
-            <div class="profile-sidebar">
-              <ul>
-                <li>
-                  <a href="/profile.html"
-                    ><i class="bi bi-person ms-2 "></i>اطلاعات حساب</a
-                  >
-                </li>
-                <li>
-                  <a href="/cart.html"
-                    ><i class="bi bi-bag ms-2"></i>سفارش های من</a
-                  >
-                </li>
-                <li>
-                  <a href="/profileFavoritItem.html"
-                    ><i class="bi bi-bookmark ms-2"></i>لیست علاقه مندی</a
-                  >
-                </li>
-                <li>
-                  <a href="/coworker.html"
-                    ><i class="bi bi-envelope ms-2"></i>درخواست همکاری</a
-                  >
-                </li>
-                <li>
-                  <a href="/editProfile.html"
-                    ><i class="bi bi-pencil-square ms-2"></i>ویرایش حساب</a
-                  >
-                </li>
-                <li>
-                  <a href="#"><i class="bi bi-box-arrow-right ms-2"></i>خروج</a>
-                </li>
-              </ul>
+            <div class="profile-sidebar allProduct-filter d-none  d-md-block">
+              <h5 class="my-1 ">فیلتر</h5>
+              <div class="all-category-filter">
+                <p class="all-category-filter-title">
+                  تمام دسته بندی ها
+                  <i class="fa-sharp fa-solid fa-caret-down me-1"></i>
+                </p>
+                <div class="all-category-filter-list">
+                  <ul>
+                    <li><a href="#">خودرو</a></li>
+                    <li><a href="#">لنت</a></li>
+                    <li><a href="#">روغن موتور</a></li>
+                    <li><a href="#">کمک فنر</a></li>
+                    <li><a href="#">بدنه خودرو</a></li>
+                    <li><a href="#">لاستیک</a></li>
+                    <li><a href="#">رینگ</a></li>
+                    <li><a href="#">لوازم مصرفی</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="all-category-filter">
+                <p class="all-category-filter-title">
+                  برند ها<i class="fa-sharp fa-solid fa-caret-down me-1"></i>
+                </p>
+                <div class="all-category-filter-list">
+                  <ul>
+                    <li><a href="#">خودرو</a></li>
+                    <li><a href="#">لنت</a></li>
+                    <li><a href="#">روغن موتور</a></li>
+                    <li><a href="#">کمک فنر</a></li>
+                    <li><a href="#">بدنه خودرو</a></li>
+                    <li><a href="#">لاستیک</a></li>
+                    <li><a href="#">رینگ</a></li>
+                    <li><a href="#">لوازم مصرفی</a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="all-category-filter">
+                <p class="all-category-filter-title">قیمت از:</p>
+                <input type="range" class="w-100" />
+                <div
+                  class="show-filter-price d-flex justify-content-between px-2"
+                >
+                  <span>از:۰</span>
+                  <span>تا:۱۰۰هزار</span>
+                </div>
+              </div>
+              <div class="all-category-filter">
+                <div class="d-flex justify-content-between mt-2">
+                  <label for="">کالاهای تخفیف دار </label>
+                  <input type="checkbox" />
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <label for="">کالاهای موجود </label>
+                  <input type="checkbox" />
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                  <label for="">پیشنهاد ما</label>
+                  <input type="checkbox" />
+                </div>
+              </div>
             </div>
           </div>
           <div class=" col-lg-9 px-1 mt-3  mt-lg-0">
@@ -359,7 +454,12 @@
               <div class="profile-main-header-title position-relative mb-3">
                 <h5>تمام محولات</h5>
               </div>
-              <div class="responsive-header-filter-product"></div>
+              <div class="responsive-header-filter-product d-block d-md-none ">
+                <div class="show-responsive-filter">
+                  <i class="fa-solid fa-arrow-down-short-wide"></i>
+                  <span>فیلتر</span>
+                </div>
+              </div>
               <div
                 class="header-filter-product position-relative d-none d-md-block"
               >
@@ -544,9 +644,19 @@
                   </div>
                 </div>
               </div>
-              <button class="btn btn-danger submit-edit-form mt-3">
-                pageination
-              </button>
+              <div class="pageination-section mx-auto  mt-4">
+                <ul id="pagination">
+                  <li><a class="" href="#">«</a></li>
+                  <li><a href="#">1</a></li>
+                  <li><a href="#" class="active">2</a></li>
+                  <li><a href="#">3</a></li>
+                  <li><a href="#">4</a></li>
+                  <li><a href="#">5</a></li>
+                  <li><a href="#">6</a></li>
+                  <li><a href="#">7</a></li>
+                  <li><a href="#">»</a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
@@ -670,5 +780,23 @@
     ></script>
 
     <script src="js/responsiveNavbar.js"></script>
+    <script>
+      $('.show-responsive-filter').click(function () {
+        $('.responsive-filter ').toggleClass('active')
+        $('.responsive-child').toggleClass('active')
+      })
+      $('.responsive-child').click(function () {
+        $('.responsive-filter ').removeClass('active')
+      })
+      $('.all-category-filter-title').click(function () {
+        $('.all-category-filter-list')
+          .not(this)
+          .next()
+          .slideUp('fast')
+        $(this)
+          .next()
+          .slideToggle('fast')
+      })
+    </script>
   </body>
 </html>

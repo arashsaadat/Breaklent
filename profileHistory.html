@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaStyle.css" />
     <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/profileHistory.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
@@ -329,7 +330,9 @@
     </div>
     <!-- main and sidebar section start -->
 
-    <div class="main-sidebar-container d-flex flex-lg-row flex-column mt-3 mb-0 mb-md-5">
+    <div
+      class="main-sidebar-container d-flex flex-lg-row flex-column mt-3 mb-0 mb-md-5"
+    >
       <div class="container">
         <div class="row">
           <div class=" col-lg-3 px-1">
@@ -369,107 +372,68 @@
           <div class=" col-lg-9 px-1 mt-3  mt-lg-0">
             <div class="profile-main p-3 position-relative">
               <div class="profile-main-header-title position-relative mb-2">
-                <h5>درخواست همکاری</h5>
+                <h5>تاریخچه خرید</h5>
               </div>
-              <form id="coworker-form">
-                <section class="row ">
-                  <section class="col-12 col-sm-6  mb-2 py-2">
-                    <label for="coworker-name" class="field-title">نام</label>
-                    <section class="field-value overflow-auto">
-                      <input id="coworker-name" type="text" placeholder="نام" />
-                    </section>
-                  </section>
 
-                  <section class="col-12 col-sm-6  mb-2 py-2">
-                    <label class="field-title" for="coworker-lname"
-                      >نام خانوادگی</label
-                    >
-                    <section class="field-value overflow-auto">
-                      <input
-                        type="text"
-                        placeholder="نام خانوادگی"
-                        id="coworker-lname"
-                      />
-                    </section>
-                  </section>
-
-                  <section class="col-12 col-sm-6 my-2 py-2">
-                    <label class="field-title" for="coworker-mobile">
-                      شماره تلفن</label
-                    >
-                    <section class="field-value overflow-auto">
-                      <input
-                        type="tel"
-                        placeholder="شماره تلفن"
-                        id="coworker-mobile"
-                      />
-                    </section>
-                  </section>
-
-                  <section class="col-12 col-sm-6  my-2 py-2">
-                    <label class="field-title" for="coworker-email">
-                      ایمیل</label
-                    >
-                    <section class="field-value overflow-auto">
-                      <input
-                        type="email"
-                        placeholder="ایمیل"
-                        id="coworker-email"
-                      />
-                    </section>
-                  </section>
-
-                  <section class="col-12 col-sm-6  my-2 py-2">
-                    <label class="field-title" for="coworker-personal-id">
-                      کدملی</label
-                    >
-                    <section class="field-value overflow-auto">
-                      <input
-                        type="number"
-                        placeholder="کدملی"
-                        id="coworker-personal-id"
-                      />
-                    </section>
-                  </section>
-                  <section class="col-12 col-sm-6  my-2 py-2">
-                    <label class="field-title" for="coworker-address">
-                      ادرس</label
-                    >
-                    <section class="field-value overflow-auto">
-                      <input
-                        type="text"
-                        placeholder="ادرس"
-                        id="coworker-address"
-                      />
-                    </section>
-                  </section>
-                  <section class="col-12  my-2 py-2">
-                    <label class="field-title" for="uploadFile"
-                      >تصویر کارت ملی</label
-                    >
-                    <div class="uploadOuter">
-                      <label
-                        for="uploadFile"
-                        class=" uploadFile-btn  mb-2 "
-                        >اپلود تصویر کارت ملی</label
-                      >
-                      <strong class="d-block d-md-inline ">یا</strong>
-                      <span class="dragBox mt-3 m-md-0">
-                        <p class="mt-4">بکشید و رها کنید</p>
-                        <input
-                          type="file"
-                          onChange="dragNdrop(event)"
-                          ondragover="drag()"
-                          ondrop="drop()"
-                          id="uploadFile"
-                        />
-                        <div id="preview"></div>
-                      </span>
+              <div class="history-section mt-3">
+                <div class="history-section-item p-1 ">
+                  <div class="container-fluid p-1">
+                    <div class="row">
+                      <div class="col-md-6 col-lg-4 px-2">
+                        <div class="history-item-img">
+                          <img
+                            src="images/new-car-brake-system-replacement_36897-514.jpeg"
+                            alt=""
+                          />
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 px-2">
+                        <div
+                          class="history-item-desc d-flex  h-100 flex-column justify-content-around "
+                        >
+                          <div class="history-item-desc-date ">
+                            تاریخ ارسال:۸/۵/۱۴۰۱
+                          </div>
+                          <div class="history-item-desc-situation d-flex">
+                            <div class="situation">
+                              وضعیت کالا:
+                            </div>
+                            <span class="sending">
+                              درحال ارسال
+                              <i class="fas fa-check"></i
+                            ></span>
+                          </div>
+                          <div class="fallow-producu">
+                            <a href="#">
+                              ورود به سامانه پیگیری محصول:
+                            </a>
+                            <div>
+                              2455-5343-5334-3434
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-6 col-lg-4 px-2">
+                        <div
+                          class="history-item-price-section d-flex  h-100 flex-column justify-content-around "
+                        >
+                          <div class="history-item-price ">
+                            قیمت: <span>440/000</span>تومان
+                          </div>
+                          <div class="history-item-price-Discount">
+                            جمع تخفیف: <span>30/000</span>تومان
+                          </div>
+                          <div class="fallow-producu">
+                            <a href="#">
+                              مشاهده فاکتور خرید
+                            </a>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                  </section>
-                </section>
-              </form>
-              <button class="send-coworker-form btn btn-danger">ارسال درخواست</button>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -580,23 +544,6 @@
     </footer>
     <!-- end footer section -->
     <!-- JavaScript Bundle with Popper -->
-    <script>
-      function dragNdrop (event) {
-        var fileName = URL.createObjectURL(event.target.files[0])
-        var preview = document.getElementById('preview')
-        var previewImg = document.createElement('img')
-        previewImg.setAttribute('src', fileName)
-        preview.innerHTML = ''
-        preview.appendChild(previewImg)
-      }
-      function drag () {
-        document.getElementById('uploadFile').parentNode.className =
-          'draging dragBox'
-      }
-      function drop () {
-        document.getElementById('uploadFile').parentNode.className = 'dragBox'
-      }
-    </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

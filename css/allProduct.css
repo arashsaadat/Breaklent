@@ -12,9 +12,60 @@
 }
 .delete-filter {
 	position: absolute;
-    left: 0;
-    top: 0;
+	left: 0;
+	top: 0;
 }
-.responsive-header-filter-product{
-
+.responsive-header-filter-product {
+}
+.show-responsive-filter {
+	cursor: pointer;
+}
+.responsive-filter {
+	position: fixed;
+	top: 94px;
+	bottom: 0;
+	right: -100%;
+	width: 200px;
+	height: 85%;
+	z-index: 1000;
+	background-color: #fff;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	overflow: scroll;
+}
+.responsive-filter.active {
+	right: 0;
+}
+.all-category-filter {
+	margin: 10px 0;
+}
+.all-category-filter p {
+	font-size: 14px;
+	font-weight: bold;
+}
+.all-category-filter-list {
+	display: none;
+}
+.all-category-filter-list ul li a {
+	color: gray;
+	margin-right: 20px;
+	margin-top: 5px;
+	font-size: 13px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.pageination-section {
+	direction: ltr;
+	align-items: center;
+	color: #555;
+	display: flex;
+	font-size: 1.25em;
+	justify-content: center;
+	margin: 0;
 }

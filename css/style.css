@@ -1162,3 +1162,24 @@ footer {
 	-o-transform: translateX(-4px);
 }
 /* footer end */
+/* all product section start */
+.pageination-section #pagination {
+	display: flex;
+}
+.pageination-section #pagination li a {
+	border-radius: 5px;
+	-webkit-transition: background-color 0.3s;
+	transition: background-color 0.3s;
+	margin: 0 5px;
+	padding: 1px 3px;
+	color: #000;
+}
+.pageination-section #pagination li a.active {
+	background-color: #ed3237;
+	color: #fff;
+}
+.pageination-section #pagination li a:hover:not(.active) {
+	background-color: #ddd;
+}
+
+/* all product section end */

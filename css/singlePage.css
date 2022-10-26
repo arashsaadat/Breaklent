@@ -1,17 +1,17 @@
-main {
+.single-page-main {
 	margin-top: 95px;
 }
-main .bread-crumb-container .bread-crumb-list {
+.single-page-main .bread-crumb-container .bread-crumb-list {
 	padding: 5px 15px;
 	flex-wrap: wrap;
 }
-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item {
+.single-page-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item {
 	position: relative;
 	text-align: center;
 	margin-left: 7px;
 	margin-top: 10px;
 }
-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item:first-child::after {
+.single-page-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item:first-child::after {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -20,7 +20,7 @@ main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item:first-child
 	bottom: 0;
 	background-color: #ccc;
 }
-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item a {
+.single-page-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item a {
 	color: #000;
 	position: relative;
 	box-sizing: content-box;
@@ -36,7 +36,7 @@ main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item a {
 	-ms-transform: skewX(0deg);
 	-o-transform: skewX(0deg);
 }
-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item::before {
+.single-page-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item::before {
 	position: absolute;
 	content: "";
 	top: 0;
@@ -50,7 +50,7 @@ main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item::before {
 	-ms-transform: skewX(-40deg);
 	-o-transform: skewX(-40deg);
 }
-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item:last-child:after {
+.single-page-main .bread-crumb-container .bread-crumb-list .bread-crumb-list-item:last-child:after {
 	position: absolute;
 	content: "";
 	top: 0;
