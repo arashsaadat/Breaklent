@@ -15,8 +15,7 @@
 	left: 0;
 	top: 0;
 }
-.responsive-header-filter-product {
-}
+
 .show-responsive-filter {
 	cursor: pointer;
 }
@@ -59,13 +58,4 @@
 	-moz-transition: all 0.3s ease-in-out;
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
-}
-.pageination-section {
-	direction: ltr;
-	align-items: center;
-	color: #555;
-	display: flex;
-	font-size: 1.25em;
-	justify-content: center;
-	margin: 0;
 }

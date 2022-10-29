@@ -1183,3 +1183,13 @@ footer {
 }
 
 /* all product section end */
+/* pageination */
+.pageination-section {
+	direction: ltr;
+	align-items: center;
+	color: #555;
+	display: flex;
+	font-size: 1.25em;
+	justify-content: center;
+	margin: 0;
+}
