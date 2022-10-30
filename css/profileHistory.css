@@ -10,11 +10,7 @@
 	height: 170px;
 	display: flex;
 	flex-wrap: wrap;
-	border-radius: 5px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	-ms-border-radius: 5px;
-	-o-border-radius: 5px;
+	
 }
 .history-section-item .history-item-img .item-img-list {
 	width: 50%;
