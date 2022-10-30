@@ -1209,3 +1209,51 @@ footer {
 	margin-top: 5px;
 	box-shadow: 1px 1px 12px 3px #f0f0f1;
 }
+/* factor sectin start */
+.factor-main-section{
+
+}
+.factot-header-container {
+	position: relative;
+}
+.factot-header-container::before {
+	content: "";
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	right: 0;
+	height: 3px;
+	background-color: #ccc;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+}
+.factot-header-container .print-factor-btn {
+	background-color: #c00;
+	padding: 3px 10px;
+	color: #fff !important;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.thead-body {
+	border: 1px solid #555;
+	padding: 5px;
+}
+.thead-navbar h5 {
+	background-color: #555;
+	color: #fff;
+}
+
+.thead-body .header-w-24 {
+	width: 19%;
+}
+.tbody-section {
+	border: 1px solid #555;
+}
+
+/* factor sectin end */

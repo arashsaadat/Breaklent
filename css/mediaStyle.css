@@ -16,6 +16,13 @@
 	.profile-sidebar {
 		width: 100% !important;
 	}
+	.factor-main-section{
+		overflow-x: scroll;
+			}
+			.factor-main-section form{
+				width: 992px;
+		
+			}
 }
 @media (max-width: 768px) {
 	.cart-img img {
@@ -25,4 +32,5 @@
 		width: 70% !important;
 		margin: 0 auto !important;
 	}
+
 }
