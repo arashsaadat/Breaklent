@@ -480,6 +480,9 @@ header {
 	-o-transition: all 0.5s ease-in-out;
 	background-color: #fff;
 }
+.responsiv-navbar-product i {
+	font-size: 11px;
+}
 .responsive-navabar .responsiv-navbar-product-dropdown {
 	display: none;
 }
@@ -1210,8 +1213,7 @@ footer {
 	box-shadow: 1px 1px 12px 3px #f0f0f1;
 }
 /* factor sectin start */
-.factor-main-section {
-}
+
 .factot-header-container {
 	position: relative;
 }
@@ -1238,6 +1240,8 @@ footer {
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
+	border: none;
+	outline: none;
 }
 .thead-body {
 	border: 1px solid #555;
@@ -1254,5 +1258,85 @@ footer {
 .tbody-section {
 	border: 1px solid #555;
 }
-
+.tbody-section td {
+	padding: 0 !important;
+	min-height: 20px;
+	vertical-align: center !important;
+}
+@media print {
+	/* style sheet for print goes here */
+	.factot-header {
+		visibility: hidden;
+		size: landscape;
+	}
+}
 /* factor sectin end */
+/* address section start  */
+.address {
+	margin-top: 10px;
+}
+.addres-item {
+	border: 1px solid #ccc;
+	font-size: 14px;
+	padding: 5px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	line-height: 30px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+}
+.addres-item:hover {
+	border: 1px solid rgba(204, 0, 0, 0.388);
+}
+.addres-item.active {
+	border: 1px solid red;
+}
+.editing-address-item-desc {
+	color: #cc000070;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.editing-address-item-desc:hover {
+	color: #c00;
+}
+.add-new-address-item:hover {
+	color: #c00;
+	cursor: pointer;
+}
+.select-post-send-item {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}
+.select-post-send-item .select-post-item {
+	padding: 5px 10px;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	transition: all 0.3s ease-in-out;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+.select-post-send-item .select-post-item:hover {
+	border: 1px solid rgba(204, 0, 0, 0.449);
+}
+.select-post-send-item .select-post-item.active {
+	border: 1px solid #c00;
+}
+/* address section end */

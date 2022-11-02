@@ -32,6 +32,9 @@
     />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/mediaStyle.css" />
+    <link rel="stylesheet" href="css/profile.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+
     <title>Document</title>
   </head>
   <body>
@@ -314,396 +317,299 @@
       <!-- end of navbar -->
       <!-- START SLIDER -->
     </nav>
-    <header class="position-relative">
-      <div class="slider-search position-absolute ">
-        <div class="search-box d-flex position-absolute ">
-          <div class="slider-afortis-logo position-absolute">
-            <img src="images/Afortis-la.png" alt="" />
-          </div>
-          <!-- <div class="slider-logo position-absolute">
-            <h1 class="">
-              با ایران لنت
-              <span class="bg-white rounded-pill h-6 px-3">بهترین کیفیت</span>
-            </h1>
-            <h2>برای شماست</h2>
-          </div> -->
-          <!-- <div class="search-car-input position-absolute w-100">
-            <form class="">
-              <div class="text-dark search-part-header ms-2 ">
-                <label for="search-part">
-                  <h4>جستجوی کالا</h4>
-                </label>
-              </div>
-              <div class="position-relative">
-                <input
-                  type="text"
-                  id="search-part"
-                  name="search-part"
-                  placeholder="قطعه مورد نظر را جستجو کنید"
-                />
-
-                <button><i class="fas fa-search"></i></button>
-              </div>
-              <div class="text-dark search-part-header ms-2 ">
-                <p>نام قطعه مورد نظر خود را وارد کنید</p>
-              </div>
-            </form>
-          </div> -->
-        </div>
-      </div>
-      <!-- END  SLIDER -->
-    </header>
-    <!-- start car logo section -->
-
-    <!-- end car logo section -->
     <!-- start of main and aside section -->
-    <main class="mt-2 d-flex flex-column flex-lg-row">
+    <div
+      class="main-sidebar-container d-flex flex-lg-row flex-column mt-3 mb-0 mb-md-5"
+    >
       <div class="container">
-        <div class="main">
-          <div class="product-slider-section mt-3">
-            <div class="product-header">
-              <h4>جدید ترین محصولات</h4>
-            </div>
+        <div class="profile-main-header-title position-relative mb-2">
+          <h5>تکمیل اطلاعات ارسال کالا</h5>
+        </div>
+        <div class="row mt-3">
+          <div class=" col-lg-3 complet-cart-address px-1">
+            <section
+              class="content-wrapper p-3 bg-white rounded-2 cart-total-price"
+            >
+              <section
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <p class="text-muted">قیمت کالاها (2)</p>
+                <p class="text-muted">398,000 تومان</p>
+              </section>
 
-            <div class="item-slider-section ltr mt-md-5 mt-1 p-">
-              <div class="owl-carousel items-owl owl-theme content ">
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لنت پراید ۱۳۱</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/brake-calipers-1.jpeg" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>با این لنت ماشین شما ترمز میگیرد</h6>
-                      </div>
+              <section
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <p class="text-muted">تخفیف کالاها</p>
+                <p class="text-danger fw-bolder">78,000 تومان</p>
+              </section>
+              <section
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <p class="text-muted">نوع ارسال</p>
+                <p class="text-info fw-bolder">پست پیشتاز</p>
+              </section>
+              <section
+                class="d-flex justify-content-between align-items-center mb-2"
+              >
+                <p class="text-muted">هزینه ارسال</p>
+                <p class="text-warning fw-bolder">78,000 تومان</p>
+              </section>
+              <section class="border-bottom mb-3"></section>
+              <section
+                class="d-flex justify-content-between align-items-center "
+              >
+                <p class="text-muted">جمع کل خرید</p>
+                <p class="fw-bolder">320,000 تومان</p>
+              </section>
 
-                      <div class="card-price">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لوازم پژو</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/carPart.webp" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>انواع لوازم پژو</h6>
-                      </div>
+              <p class="my-3">
+                <i class="fa fa-info-circle me-1"></i>
+                کاربر گرامی قبل از نهایی کردن خرید از صحت اطلاعات و ادرس خود
+                اطمینان حاصل کنید
+              </p>
 
-                      <div class="card-price">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۲۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لنت جلو برلیانس h330</h5>
-                      </div>
-                      <div class="card-images">
-                        <img
-                          src="images/Brilliance_H330.Taha.7.13.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="card-desc">
-                        <h6>لنت درجه یک ساخت خارج</h6>
-                      </div>
-
-                      <div class="card-price">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لنت جلو برلیانس</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/lent2.webp" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>لنت افورتیس برای برلیانس</h6>
-                      </div>
-
-                      <div class="card-price d-none">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۳۴۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                      <div class="Available text-warning">
-                        تنها ۱عدد در انبار موجود میباشد
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لنت عقب زانتیا</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/زانتیا.jpeg" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>با این لنت ماشین شما ترمز میگیرد</h6>
-                      </div>
-
-                      <div class="card-price d-none">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                      <div class="Available text-danger">
-                        در انبار موجود نمیباشد
-                      </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
+              <section class="">
+                <a href="address.html" class="btn btn-danger d-block"
+                  >انتقال به درگاه پرداخت</a
+                >
+              </section>
+            </section>
           </div>
-          <!-- slider section start -->
-          <div class="slider w-100 ltr my-5">
-            <div>
-              <div id="news-slider" class="owl-carousel owl-theme content">
-                <div class="item">
-                  <div>
-                    <img src="images/ccc.png" alt="" />
-                  </div>
+          <div class=" col-lg-9 px-1 mt-3  mt-lg-0">
+            <div class="profile-main p-3 position-relative">
+              <div
+                class="text-secondary border-bottom pb-2 position-relative mb-2"
+              >
+                <h5>ثبت ادرس</h5>
+              </div>
+              <div class="addres-item position-relative mb-2">
+                <div class="addres-item-desc">
+                  <i class="fas fa-location-pin"></i>
+                  <span>ادرس:</span>
+                  <span>تهران خیابان یکم کوچه یکم پلاک یکم</span>
                 </div>
-                <div class="item">
-                  <div>
-                    <img src="images/brake-calipers-1.jpeg" alt="" />
-                  </div>
+                <div class="addres-item-desc">
+                  <i class="fas fa-user"></i>
+                  <span>گیرنده:</span>
+                  <span>علیرضا نظری</span>
                 </div>
-                <div class="item">
-                  <div>
-                    <img
-                      src="images/vintage-auto-parts-sale-market-148431106.jpeg"
-                      alt=""
-                    />
-                  </div>
+                <div class="addres-item-desc">
+                  <i class="fas fa-phone"></i>
+                  <span>تلفن گیرنده:</span>
+                  <span>۰۹۱۱۱۲۳۳۲۲۲</span>
+                </div>
+                <div
+                  class="editing-address-item-desc"
+                  data-bs-toggle="modal"
+                  data-bs-target="#add-address"
+                >
+                  ویرایش اطلاعات
                 </div>
               </div>
-            </div>
-          </div>
-
-          <!-- slider section end -->
-          <div class="product-slider-section mt-3">
-            <div class="product-header">
-              <h4>محصولات پرفروش</h4>
-            </div>
-
-            <div class=" ltr item-slider-section mt-md-5 mt-1">
-              <div class="owl-carousel items-owl owl-theme content ">
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="discount-card-item position-absolute">
-                        <div class="discount-logo">تخفیف</div>
-                        <span class="discount-percent-number">۱۰</span>
-                        ٪
-                      </div>
-                      <div class="card-top-header ">
-                        <h5>لنت پراید ۱۳۱</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/brake-calipers-1.jpeg" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>با این لنت ماشین شما ترمز میگیرد</h6>
-                      </div>
-
-                      <div class="card-price">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                    </div>
-                  </a>
+              <div class="addres-item position-relative mb-2 active">
+                <div class="addres-item-desc">
+                  <i class="fas fa-location-pin"></i>
+                  <span>ادرس:</span>
+                  <span>تهران خیابان یکم کوچه یکم پلاک یکم</span>
                 </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لوازم پژو</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/carPart.webp" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>انواع لوازم پژو</h6>
-                      </div>
-
-                      <div class="card-price">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۲۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                    </div>
-                  </a>
+                <div class="addres-item-desc">
+                  <i class="fas fa-user"></i>
+                  <span>گیرنده:</span>
+                  <span>علیرضا نظری</span>
                 </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لنت جلو برلیانس h330</h5>
-                      </div>
-                      <div class="card-images">
-                        <img
-                          src="images/Brilliance_H330.Taha.7.13.jpg"
-                          alt=""
-                        />
-                      </div>
-                      <div class="card-desc">
-                        <h6>لنت درجه یک ساخت خارج</h6>
-                      </div>
-
-                      <div class="card-price">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                    </div>
-                  </a>
+                <div class="addres-item-desc">
+                  <i class="fas fa-phone"></i>
+                  <span>تلفن گیرنده:</span>
+                  <span>۰۹۱۱۱۲۳۳۲۲۲</span>
                 </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لنت جلو برلیانس</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/lent2.webp" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>لنت افورتیس برای برلیانس</h6>
-                      </div>
-
-                      <div class="card-price">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۳۴۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
-                <div class="item">
-                  <a href="#">
-                    <div class="card-main-item p-2 position-relative">
-                      <div class="card-top-header ">
-                        <h5>لنت عقب زانتیا</h5>
-                      </div>
-                      <div class="card-images">
-                        <img src="images/زانتیا.jpeg" alt="" />
-                      </div>
-                      <div class="card-desc">
-                        <h6>با این لنت ماشین شما ترمز میگیرد</h6>
-                      </div>
-
-                      <div class="card-price d-none">
-                        <p>
-                          قیمت<span class="px-1 text-danger">۱۲۰,۰۰۰</span>تومان
-                        </p>
-                      </div>
-                      <div class="Available text-danger">
-                        در انبار موجود نمیباشد
-                      </div>
-                    </div>
-                  </a>
+                <div
+                  class="editing-address-item-desc"
+                  data-bs-toggle="modal"
+                  data-bs-target="#add-address"
+                >
+                  ویرایش اطلاعات
                 </div>
               </div>
-            </div>
-          </div>
-          <div class="last-four-product mt-4">
-            <div class="product-header">
-              <h4>آخرین مطالب سایت</h4>
-            </div>
-            <div class="row">
-              <div class="col-lg-4 col-md-6">
-                <div class="last-four-item-container w-100 p-2">
-                  <a class="display-block" href="#">
-                    <div class="last-four-item position-relative">
-                      <div class="last-four-item-img">
-                        <img src="images/brake-calipers-1.jpeg" alt="" />
-                      </div>
-                      <div
-                        class="last-four-item-overlay position-absolute text-white"
+              <div
+                class="text-center add-new-address-item"
+                data-bs-toggle="modal"
+                data-bs-target="#add-address"
+              >
+                <i class="fas fa-add"></i>
+                اضافه کردن آدرس جدید
+              </div>
+              <section
+                class="modal fade"
+                id="add-address"
+                tabindex="-1"
+                aria-labelledby="add-address-label"
+                aria-hidden="true"
+              >
+                <section class="modal-dialog">
+                  <section class="modal-content">
+                    <section class="modal-header">
+                      <h5 class="modal-title" id="add-address-label">
+                        <i class="fa fa-plus"></i> ایجاد آدرس جدید
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close m-0 me-auto"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </section>
+                    <section class="modal-body">
+                      <form class="row" action="#">
+                        <section class="col-6 mb-2">
+                          <label for="province" class="form-label mb-1"
+                            >استان</label
+                          >
+                          <select
+                            class="form-select form-select-sm"
+                            id="province"
+                          >
+                            <option selected>استان را انتخاب کنید</option>
+                            <option value="1">آذربایجان شرقی</option>
+                            <option value="2">آذربایجان غربی</option>
+                            <option value="3">تهران</option>
+                          </select>
+                        </section>
+
+                        <section class="col-6 mb-2">
+                          <label for="city" class="form-label mb-1">شهر</label>
+                          <select class="form-select form-select-sm" id="city">
+                            <option selected>استان را انتخاب کنید</option>
+                            <option value="1">تبریز</option>
+                            <option value="2">میانه</option>
+                            <option value="3">آذرشهر</option>
+                          </select>
+                        </section>
+                        <section class="col-12 mb-2">
+                          <label for="address" class="form-label mb-1"
+                            >نشانی</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            id="address"
+                            placeholder="نشانی"
+                          />
+                        </section>
+
+                        <section class="col-6 mb-2">
+                          <label for="postal_code" class="form-label mb-1"
+                            >کد پستی</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            id="postal_code"
+                            placeholder="کد پستی"
+                          />
+                        </section>
+
+                        <section class="col-3 mb-2">
+                          <label for="no" class="form-label mb-1">پلاک</label>
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            id="no"
+                            placeholder="پلاک"
+                          />
+                        </section>
+
+                        <section class="col-3 mb-2">
+                          <label for="unit" class="form-label mb-1">واحد</label>
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            id="unit"
+                            placeholder="واحد"
+                          />
+                        </section>
+
+                        <section class="border-bottom mt-2 mb-3"></section>
+
+                        <section class="col-6 mb-2">
+                          <label for="first_name" class="form-label mb-1"
+                            >نام گیرنده</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            id="first_name"
+                            placeholder="نام گیرنده"
+                          />
+                        </section>
+
+                        <section class="col-6 mb-2">
+                          <label for="last_name" class="form-label mb-1"
+                            >نام خانوادگی گیرنده</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            id="last_name"
+                            placeholder="نام خانوادگی گیرنده"
+                          />
+                        </section>
+
+                        <section class="col-6 mb-2">
+                          <label for="mobile" class="form-label mb-1"
+                            >شماره موبایل</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control form-control-sm"
+                            id="mobile"
+                            placeholder="شماره موبایل"
+                          />
+                        </section>
+                      </form>
+                    </section>
+                    <section class="modal-footer py-1">
+                      <button type="button" class="btn btn-sm btn-primary">
+                        ثبت آدرس
+                      </button>
+                      <button
+                        type="button"
+                        class="btn btn-sm btn-danger"
+                        data-bs-dismiss="modal"
                       >
-                        <h5>بهترین مقالات در مورد ماشین</h5>
-                        <p>هر چیزی که باید بدانید</p>
-                      </div>
-                    </div>
-                  </a>
-                </div>
+                        بستن
+                      </button>
+                    </section>
+                  </section>
+                </section>
+              </section>
+            </div>
+            <div
+              class="select-post-send-item profile-main mt-3 p-3 position-relative"
+            >
+              <div
+                class="text-secondary border-bottom pb-2 position-relative mb-2"
+                data-bs-toggle="modal"
+                data-bs-target="#add-address"
+              >
+                <h5>انتخاب روش های ارسال</h5>
               </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="last-four-item-container w-100 p-2">
-                  <a class="display-block" href="#">
-                    <div class="last-four-item position-relative">
-                      <div class="last-four-item-img">
-                        <img
-                          src="images/car-parts_93675-66585 (1).webp"
-                          alt=""
-                        />
-                      </div>
-                      <div
-                        class="last-four-item-overlay position-absolute text-white"
-                      >
-                        <h5>بهترین مقالات در مورد ماشین</h5>
-                        <p>هر چیزی که باید بدانید</p>
-                      </div>
-                    </div>
-                  </a>
+              <div class="row justify-content-md-around ">
+                <div class="col-md-3 my-2 select-post-item">
+                  ارسال با پست معمولی
                 </div>
-              </div>
-              <div class="col-lg-4 col-md-6">
-                <div class="last-four-item-container w-100 p-2">
-                  <a class="display-block" href="#">
-                    <div class="last-four-item position-relative">
-                      <div class="last-four-item-img">
-                        <img
-                          src="images/360_F_343345747_wJfBUpacjstgfxqK6XyH45jXXZTeHx44.jpeg"
-                          alt=""
-                        />
-                      </div>
-                      <div
-                        class="last-four-item-overlay position-absolute text-white"
-                      >
-                        <h5>بهترین مقالات در مورد ماشین</h5>
-                        <p>هر چیزی که باید بدانید</p>
-                      </div>
-                    </div>
-                  </a>
+                <div class="col-md-3 my-2 select-post-item">
+                  ارسال با پست پیشتاز
+                </div>
+                <div class="col-md-3 active my-2 select-post-item">
+                  ارسال با تیپاکس
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </main>
+    </div>
     <!-- end of main and adie section -->
 
     <!-- start footer section -->
