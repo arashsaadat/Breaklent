@@ -42,4 +42,9 @@
 		left: 10px;
 		top: 10px;
 	}
+	.active-address-section {
+		position: absolute;
+		left: 10px;
+		bottom: 0;
+	}
 }

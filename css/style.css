@@ -1279,20 +1279,21 @@ footer {
 	border: 1px solid #ccc;
 	font-size: 14px;
 	padding: 5px;
+	cursor: pointer;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
 	line-height: 30px;
-	transition: all 0.3s ease-in-out;
-	-webkit-transition: all 0.3s ease-in-out;
-	-moz-transition: all 0.3s ease-in-out;
-	-ms-transition: all 0.3s ease-in-out;
-	-o-transition: all 0.3s ease-in-out;
+}
+.addres-item-desc i {
+	margin-left: 5px;
+	color: #ccc;
 }
 .addres-item:hover {
 	border: 1px solid rgba(204, 0, 0, 0.388);
+	background-color: rgba(204, 204, 204, 0.27);
 }
 .addres-item.active {
 	border: 1px solid red;
@@ -1334,9 +1335,23 @@ footer {
 	cursor: pointer;
 }
 .select-post-send-item .select-post-item:hover {
-	border: 1px solid rgba(204, 0, 0, 0.449);
+	border: 1px solid #cc000072;
+	color: #cc000072;
 }
 .select-post-send-item .select-post-item.active {
 	border: 1px solid #c00;
+	color: #c00;
+}
+#add-address input {
+	outline: 0px !important;
+	-webkit-appearance: none;
+	box-shadow: none !important;
+}
+.active-address-section {
+	color: #c00;
+	display: none;
+}
+.active-address-section.active {
+	display: block;
 }
 /* address section end */
