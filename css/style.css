@@ -1355,3 +1355,18 @@ footer {
 	display: block;
 }
 /* address section end */
+.input-container-sidebar {
+	justify-content: space-between;
+}
+.input-container-sidebar input {
+	width: 45%;
+	height: 35px !important;
+	padding: 0 5px ;
+	border: 1px solid #ccc;
+	outline: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+}

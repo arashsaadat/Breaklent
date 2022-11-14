@@ -76,8 +76,8 @@
 	color: rgba(204, 0, 0, 0.572);
 }
 .profile-sidebar ul li.active a,
-.profile-sidebar ul li.active i{
-color:#c00 !important;
+.profile-sidebar ul li.active i {
+	color: #c00 !important;
 }
 .profile-sidebar ul li a i {
 	color: black;
@@ -159,7 +159,8 @@ color:#c00 !important;
 	padding: 0 10px;
 }
 .main-sidebar-container input {
-	height: 40px;
+	margin: 0;
+	margin-left: 3px !important;
 }
 .dragBox {
 	position: relative;
@@ -219,4 +220,7 @@ color:#c00 !important;
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
+}
+.fillter-all-brands .row>div{
+margin-top: 5px;
 }
