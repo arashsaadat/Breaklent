@@ -518,7 +518,6 @@
                     placeholder="قیمت تا"
                     onkeyup="javascript:this.value=separate(this.value);"
                     onkeypress="return onlyNumberKey(event)"
-
                     name=""
                     id=""
                   />
@@ -614,7 +613,7 @@
                         </div>
                         <div class="card-images">
                           <img
-                            src="images/Brilliance_H330.Taha.7.13.jpg"
+                            src="images/car-mechanic-changing-wheels-car_1303-27455.webp"
                             alt=""
                           />
                         </div>
@@ -640,10 +639,7 @@
                           <h5>لنت جلو برلیانس h330</h5>
                         </div>
                         <div class="card-images">
-                          <img
-                            src="images/Brilliance_H330.Taha.7.13.jpg"
-                            alt=""
-                          />
+                          <img src="images/زانتیا.jpeg" alt="" />
                         </div>
                         <div class="card-desc">
                           <h6>لنت درجه یک ساخت خارج</h6>
@@ -904,14 +900,12 @@
         while (rgx.test(y)) y = y.replace(rgx, '$1' + ',' + '$2')
         return y + z
       }
-      function onlyNumberKey(evt) {
-              
-              // Only ASCII character in that range allowed
-              var ASCIICode = (evt.which) ? evt.which : evt.keyCode
-              if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57))
-                  return false;
-              return true;
-          }
+      function onlyNumberKey (evt) {
+        // Only ASCII character in that range allowed
+        var ASCIICode = evt.which ? evt.which : evt.keyCode
+        if (ASCIICode > 31 && (ASCIICode < 48 || ASCIICode > 57)) return false
+        return true
+      }
     </script>
   </body>
 </html>
