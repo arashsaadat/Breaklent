@@ -37,20 +37,20 @@ const blur = () => {
 };
 // super header
 
-showSuperMenu.addEventListener("mouseover", () => {
-	superMenu.classList.add("active");
-});
-showSuperMenu.addEventListener("mouseout", () => {
-	superMenu.classList.remove("active");
-});
-superMenu.addEventListener("mouseover", () => {
-	superMenu.classList.add("active");
-});
-superMenu.addEventListener("mouseout", () => {
-	superMenu.classList.remove("active");
-});
+// showSuperMenu.addEventListener("mouseover", () => {
+// 	superMenu.classList.add("active");
+// });
+// showSuperMenu.addEventListener("mouseout", () => {
+// 	superMenu.classList.remove("active");
+// });
+// superMenu.addEventListener("mouseover", () => {
+// 	superMenu.classList.add("active");
+// });
+// superMenu.addEventListener("mouseout", () => {
+// 	superMenu.classList.remove("active");
+// });
 // responsivNavbarProduct
 
-$("#responsiv-navbar-product").click(function(){
-    $(".responsiv-navbar-product-dropdown").slideToggle();
-  });
+$("#responsiv-navbar-product").click(function () {
+	$(".responsiv-navbar-product-dropdown").slideToggle();
+});
