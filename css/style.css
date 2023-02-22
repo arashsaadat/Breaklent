@@ -371,7 +371,7 @@ header {
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-image: url(../images/2056609.jpg);
+	background-image: url(../images/imglogo.jpg);
 	background-size: cover;
 	background-position: center;
 }
@@ -554,7 +554,7 @@ header {
 	-webkit-animation: slider-logo-img 1s forwards;
 }
 .slider-afortis-logo img {
-	width: 30vw;
+	width: 60vw;
 }
 .search-part-header h4 {
 	color: #000;
@@ -564,7 +564,7 @@ header {
 		top: -10%;
 	}
 	100% {
-		top: 54%;
+		top: 25%;
 	}
 }
 

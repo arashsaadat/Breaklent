@@ -22,6 +22,10 @@
 	.factor-main-section form {
 		width: 992px;
 	}
+	.slider-search {
+		background-size: cover;
+		background-position: left;
+	}
 }
 @media (max-width: 768px) {
 	.cart-img img {
