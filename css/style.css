@@ -1361,7 +1361,7 @@ footer {
 .input-container-sidebar input {
 	width: 45%;
 	height: 35px !important;
-	padding: 0 5px ;
+	padding: 0 5px;
 	border: 1px solid #ccc;
 	outline: none;
 	border-radius: 5px;
@@ -1369,4 +1369,113 @@ footer {
 	-moz-border-radius: 5px;
 	-ms-border-radius: 5px;
 	-o-border-radius: 5px;
+}
+.progres-factor-teble {
+	margin-top: 20px;
+}
+.progres-factor-teble,
+.progres-factor-teble th,
+.progres-factor-teble tr,
+.progres-factor-teble td {
+	border: 1px solid #ccc;
+	text-align: center;
+	padding: 5px 10px;
+}
+.progres-factor-teble a {
+	padding: 2px 4px;
+	color: #fff;
+	background-color: #c00;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+
+.change-factor a {
+	background-color: #288ed9;
+	color: #fff;
+	padding: 3px 8px;
+	margin: 0 3px;
+	text-align: center;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+}
+.change-factor .btn-green {
+	background-color: rgb(29, 199, 29);
+}
+.change-factor .btn-yellow {
+	background-color: rgb(213, 213, 27);
+}
+
+.change-factor .btn-blue {
+	background-color: rgb(42, 129, 163);
+}
+
+.change-factor .btn-orange {
+	background-color: orange;
+}
+
+.change-factor .btn-red {
+	background-color: red;
+}
+.progres-factor-container {
+	width: 100%;
+	overflow: scroll;
+}
+.change-factor {
+	margin-top: 20px;
+	width: 100%;
+	display: flex;
+	overflow: scroll;
+}
+.change-factor a.active{
+background-color: #fff;
+}
+.coming-soon-container {
+	height: 100vh;
+	background-image: url(./../images/2056609.jpg);
+	background-position: center;
+	background-size: cover;
+}
+.coming-soon {
+	height: 100vh;
+	background-image: url(./../images/logo.png);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+.coming-soon div {
+	position: absolute;
+	bottom: 15%;
+	left: 50%;
+	transform: translateX(-50%);
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+}
+.coming-soon div h1 {
+	font-size: 6vw;
+	color: #c00;
+}
+.blinking {
+	animation: blinkingText 1.5s infinite;
+	-webkit-animation: blinkingText 1.5s infinite;
+}
+@keyframes blinkingText {
+	0% {
+		color: #c00;
+	}
+
+	50% {
+		color: transparent;
+	}
+
+	100% {
+		color: #c00;
+	}
 }
